@@ -1,5 +1,5 @@
 .navbar {
-    background-color: whitesmoke;
+    background-color: white;
     overflow: hidden;
     color: black;
 
@@ -54,6 +54,7 @@
     transform: translate(-50%, -50%);
 }
 
+
 .text .head {
     font-weight: 800;
 
@@ -105,6 +106,106 @@
 
 .steps button {
     padding: 6px;
-    margin: 5px 33%;
-    width: 100px;
+    margin: 5px;
+    width: 100%;
+    border-radius: 20px;
+}
+.aboutus{
+    display: grid;
+    grid-template-columns: auto auto auto   auto;
+    margin: 10px 20px;
+    grid-gap: 20px;
+    /* background-color: gold; */
+    padding: 10px; 
+    /* justify-content: space-btw; */
+}
+
+    
+
+.aboutus > div{
+    background-color:rgb(164, 196, 164) ;                                                                                                                                               ;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+    /* width: 300px;  */
+}
+.aboutus > div h2{
+    color: green;
+    font-weight: 700;
+    text-align: center;
+}
+.aboutus > div p{
+font-family:sans-serif;
+text-align: center;
+
+
+}
+ .item1{
+    grid-column:  1 / 3;
+}
+.item4{
+    grid-row: 2 / 4 ;
+}
+
+.item5{
+    grid-row: 2 / 4 ;
+}
+
+
+.planscontent{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    margin: 10px 20px;
+    grid-gap: 20px;
+    padding: 10px; 
+}
+.planscontent > div{
+    background-color: whitesmoke;
+    color: black;
+    padding:10px ;
+    text-align: center;
+    border-radius: 5px;
+
+
+}
+.planscontent h2{
+    border: 1px solid black;
+}
+hr.new{
+    border-top:1px solid blue;
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.plans h1{
+    margin:10px 25px;
+    color: green;
+    font-weight:700 ;
+}
+
+
+.testimony{
+    text-align: center;}
+    .testimony h1{
+    font-weight: 600;
+    color: green;
+}
+.testimony .testimony-form{
+    background-color: whitesmoke;
+    margin: 25px;
+}
+.testimony .testimony-form input[type="text"]{
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid blue;
+}
+.testimony .testimony-form textarea{
+    width: 50%;
+    padding: 15px;
+    border: 1px solid blue;
+
+
 }

@@ -50,6 +50,11 @@
     font-size: 25px;
 
 }
+
+    .text p{
+        font-family: monospace;
+        font-size: 10px;
+    }
 .steps{
     flex-direction: column;
     
@@ -66,4 +71,47 @@ margin-bottom: 20px;
 
 }
 }
-/* mj */
+@media  screen and  (max-width:1000px){
+    .steps{
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    .steps  div{
+    
+    flex:50% !important;
+    max-width:100% !important;
+    margin-bottom: 20px;
+    }  
+}
+@media  screen and  (max-width:800px){
+    .aboutus{
+    display: flex;
+    flex-direction: column;
+    }
+.aboutus > div{
+    width:100%;
+    /* text-overflow: clip; */
+
+}
+.aboutus > div p{
+    text-overflow: ellipsis;
+    font-size: small;
+    word-spacing: 2px;
+    text-align: center;
+
+
+}
+.aboutus > div button{
+    width: 100%;
+    border-radius: 10px !important;
+}
+.planscontent{
+    display: flex;
+    flex-direction: column;
+    
+
+
+}
+
+
