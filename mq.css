@@ -88,6 +88,7 @@ margin-bottom: 20px;
     .aboutus{
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
     }
 .aboutus > div{
     width:100%;
@@ -109,7 +110,8 @@ margin-bottom: 20px;
 .planscontent{
     display: flex;
     flex-direction: column;
-    
+    margin-bottom: 10px;
+
 
 
 }
