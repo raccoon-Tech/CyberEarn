@@ -93,6 +93,8 @@ margin-bottom: 20px;
 .aboutus > div{
     width:100%;
     /* text-overflow: clip; */
+    margin-bottom: 10px;
+
 
 }
 .aboutus > div p{
@@ -110,7 +112,6 @@ margin-bottom: 20px;
 .planscontent{
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
 
 
 
