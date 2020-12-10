@@ -50,7 +50,7 @@
     top: 50%;
     left: 50%;
     margin: 0;
-
+    text-align: center;
     transform: translate(-50%, -50%);
 }
 
@@ -72,8 +72,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 0 ;
-    
+    padding: 0;
+
     width: 100%;
     max-width: 100%;
     margin: 20px 0px;
@@ -109,122 +109,186 @@
     margin: 5px;
     width: 100%;
     border-radius: 20px;
+    border: none;
 }
-.aboutus{
+
+.aboutus {
     display: grid;
-    grid-template-columns: auto auto auto   auto;
+    grid-template-columns: auto auto auto auto;
     margin: 10px 20px;
     grid-gap: 20px;
     /* background-color: gold; */
-    padding: 10px; 
+    padding: 10px;
     /* justify-content: space-btw; */
 }
 
-    
 
-.aboutus > div{
-    background-color:silver ;                                                                                                                                               ;
+
+.aboutus>div {
+    background-color: wheat;
+    ;
     padding: 10px;
     color: black;
     border-radius: 5px;
     /* width: 300px;  */
 }
-.aboutus > div h2{
+
+.aboutus>div h2 {
     color: green;
     font-weight: 700;
     text-align: center;
 }
-.aboutus > div p{
-font-family:sans-serif;
-text-align: center;
+
+.aboutus>div p {
+    font-family: sans-serif;
+    text-align: center;
 
 
 }
-.aboutus > div button{
+
+.aboutus>div button {
     width: 100%;
     border-radius: 10px !important;
     border: none;
 }
- .item1{
-    grid-column:  1 / 3;
-}
-.item4{
-    grid-row: 2 / 4 ;
+
+.item1 {
+    grid-column: 1 / 3;
 }
 
-.item5{
-    grid-row: 2 / 4 ;
+.item4 {
+    grid-row: 2 / 4;
+}
+
+.item5 {
+    grid-row: 2 / 4;
 }
 
 
-.planscontent{
+.planscontent {
     display: grid;
-    grid-template-columns: auto auto auto ;
+    grid-template-columns: auto auto auto;
     margin: 10px 20px;
     grid-gap: 20px;
-    padding: 10px; 
+    padding: 10px;
 }
-.planscontent > div{
+
+.planscontent>div {
     background-color: whitesmoke;
     color: black;
-    padding:10px ;
+    padding: 10px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 1px;
 
 
 }
-.planscontent h2{
+
+.planscontent h2 {
     border: 1px solid black;
 }
-hr.new{
-    border-top:1px solid blue;
-    width: 50%; 
+
+hr.new {
+    border-top: 1px solid blue;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 
 }
-.plans h1{
-    margin:10px 25px;
+
+.plans h1 {
+    margin: 10px 25px;
     color: green;
-    font-weight:700 ;
+    font-weight: 700;
 }
 
 
-.testimony{
-    text-align: center;}
-    .testimony h1{
+.testimony {
+    text-align: center;
+}
+
+.testimony h1 {
     font-weight: 600;
     color: green;
 }
-.testimony .testimony-form{
+
+.testimony .testimony-form {
     background-color: whitesmoke;
     margin: 25px;
 }
-.testimony .testimony-form input[type="text"]{
+
+.testimony .testimony-form input[type="text"] {
     width: 90%;
     height: 40px;
     padding: 10px;
-    margin:10px 0px;
-    border: 1px solid blue;
+    margin: 10px 0px;
+    border: 1px solid black;
     background-color: whitesmoke;
 }
-.testimony .testimony-form textarea{
+
+.testimony .testimony-form textarea {
     width: 90%;
     padding: 15px;
-    border: 1px solid blue;
+    border: 1px solid black;
     background-color: whitesmoke;
 
 
 }
-.testimony .testimony-form input[type="submit"]{
+
+.testimony .testimony-form input[type="submit"] {
     width: 90%;
     border-radius: 5px;
+    margin: 10px;
 }
-.card{
-    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
 }
-.card:hover{
+
+.card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 
 }
+
+.green {
+    color: green;
+}
+
+button {
+    border: none;
+}
+
+.testimony-content {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    
+    grid-gap: 0;
+    margin: 25px;
+
+
+}
+
+.testimony-content>div {
+    background-color: white;
+    border-bottom: 1px solid black;
+    padding: 20px;
+
+}
+
+.testimony-content img {
+    width: 100%;
+    min-width: 20px;
+    /* height:100px; */
+    max-width: 150px;
+}
+
+.footer {
+background-color:black;
+bottom: 0;
+text-align: center;
+color: white;
+width: 100%;
+position: relative;
+min-height: 100px;
+}
+
