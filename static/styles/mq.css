@@ -5,12 +5,15 @@
     .navbar a.Hnav{
         float: right;
         display: block;
-        
+    
         text-align: center;
         margin-top:10px ;
-        font-size: 30px;
+        font-size: 40px;
         border: 1px solid lightgrey;
         margin-right: 5px;
+        padding-top:10px;
+        border: none;
+    
         
     }
 }
@@ -30,12 +33,23 @@
         margin: 2px !important;
 
     }
-    .navbar.responsive a:hover{
-        background-color: lightgray;
+    .navbar.responsive :first-child:hover{
+        background-color: white;
 
         border-bottom: black;
        
         
+    }
+    .navbar.responsive :nth-child(9):hover{
+        background-color: white;
+
+        border-bottom: black;
+       
+        
+    }
+    .navbar.responsive a:hover{
+        background-color: lightgrey;
+        border-bottom: black;
     }
 }
 @media  screen  and (max-width:700px){
