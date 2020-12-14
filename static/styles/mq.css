@@ -7,12 +7,13 @@
         display: block;
     
         text-align: center;
-        margin-top:10px ;
-        font-size: 40px;
-        border: 1px solid lightgrey;
+        margin:14px 16px ;
+        font-size: 30px;
+        border: 1px solid black;
         margin-right: 5px;
-        padding-top:10px;
-        border: none;
+        padding-top:10px 5px;
+        width: 99px;
+        /* border: none; */
     
         
     }
@@ -25,15 +26,23 @@
         position: absolute;
         right: 0;
         top: 0;
+        margin:14px 16px ;
+        font-size: 30px;
+        border: 1px solid lightgrey;
+        margin-right: 5px;
+        padding-top:10px 5px;
+        width: 99px;
+        text-align: center;
     }
     .navbar.responsive  a{
         float: none;
         display: block;
         text-align: left;
-        margin: 2px !important;
+        margin-top: 7px;
+    
 
     }
-    .navbar.responsive :first-child:hover{
+    .navbar.responsive a:first-child:hover{
         background-color: white;
 
         border-bottom: black;
@@ -41,8 +50,8 @@
         
     }
     .navbar.responsive :nth-child(9):hover{
-        background-color: white;
-
+        background-color: gray;
+color: white;
         border-bottom: black;
        
         
